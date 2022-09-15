@@ -94,7 +94,39 @@
                             declare a variable with the name
                             undefined. So the correct way to test undefined variable or property is using the typeof
                             operator, like this: if(typeof
-                            myVar === 'undefined') .
+                            myVar === 'undefined'). <br><br>
+
+                            <strong>Use the equality operator (==)</strong><br>
+                            In JavaScript if a variable has been declared, but has not been assigned a value, is
+                            automatically assigned the value
+                            undefined. Therefore, if you try to display the value of such variable, the word "undefined"
+                            will be displayed. Whereas,
+                            the null is a special assignment value, which can be assigned to a variable as a
+                            representation of no value.
+
+                            In simple words you can say a null value means no value or absence of a value, and undefined
+                            means a variable that has
+                            been declared but no yet assigned a value.
+
+                            To check if a variable is undefined or null you can use the equality operator == or strict
+                            equality operator === (also
+                            called identity operator).
+                        <pre>
+                            const seconds = new Date().getTime() / 1000;
+
+                            setTimeout(() => {
+                            // prints out "2", meaning that the callback is not called immediately after 500
+                            milliseconds.
+                            console.log(`Ran after ${new Date().getTime() / 1000 - seconds} seconds`);
+                            }, 500)
+
+                            while (true) {
+                            if (new Date().getTime() / 1000 - seconds >= 2) {
+                            console.log("Good, looped for 2 seconds");
+                            break;
+                            }
+                            }
+                        </pre>
                         </p>
                     </div>
                 </div>
